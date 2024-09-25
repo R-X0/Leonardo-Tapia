@@ -1,0 +1,20 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#preview, #results {
+    border-top: 1px solid #dee2e6;
+    padding-top: 20px;
+}
+
+#previewContent, #resultsContent {
+    max-height: 300px;
+    overflow-y: auto;
+}
